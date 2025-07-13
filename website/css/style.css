@@ -1,0 +1,60 @@
+/* body全体の基本的な設定 */
+body {
+    font-family: sans-serif; /* 読みやすいフォントに設定 */
+    margin: 0;
+    padding: 0;
+    background-color:#585858 /* 背景を薄い灰色に */
+}
+
+/* ヘッダー部分のスタイル */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* コンテンツ全体を囲むラッパー */
+.container {
+    width: 80%;
+    margin: 2rem auto; /* 上下に余白、左右は自動で中央揃え */
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* ちょっとした影をつける */
+}
+
+ol {
+border: 2px skyblue dashed;
+
+}
+
+/* 画像のスタイル */
+img {
+    max-width: 100%; /* 親要素の幅に合わせて画像の最大幅を調整 */
+    height: auto;
+    display: block; /* 画像の下にできる余分な隙間を消す */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* リンクのリスト */
+.link-list {
+    list-style: none; /* リストの黒点を消す */
+    padding: 0;
+}
+
+.link-list li a {
+    display: block;
+    padding: 0.8rem;
+    background-color: blue;
+    color: white;
+    text-decoration: none; /* 下線を消す */
+    margin-bottom: 0.5rem;
+    border-radius: 5px; /* 角を丸くする */
+    text-align: center;
+}
+
+/* リンクにマウスを乗せたときのスタイル */
+.link-list li a:hover {
+    background-color: #0056b3;
+}
